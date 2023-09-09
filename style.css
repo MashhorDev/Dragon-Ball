@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Kanit:wght@300;500&family=Prompt:wght@700&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Kanit:wght@300;500&family=Prompt:wght@500&family=REM:wght@100&family=Space+Grotesk:wght@700&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+.back {
+    background: url(dragonball.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    }
+.title {
+    font-weight: 3.2em;
+    font-size: 100px;
+    -webkit-text-stroke: 0.5px #007bff;
+    color: aqua;
+    text-align: center;
+}
+.container {
+    margin-top: 20px;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.box label {
+    letter-spacing: 1.9px;
+    font-size: 3em;
+    font-weight: 700;
+    color: #ffffff;
+}
+.box input{
+    padding-left: 10px;
+    border: solid #007bff;
+    margin: 0% auto;
+    display: block;
+    justify-content: center;
+    width: 200px;
+    box-shadow: 0 0 10px #ffffff;
+}
+.box {
+    background-color: #007bff;
+    box-shadow: 0 0 1000px #007bff;
+    border-radius: 50px;
+    height: 100%;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 10px #007bff;
+}
+.box .btn {
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    box-shadow: 0 0 10px #011afc;
+    height: 30px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 100000px;
+    width: 100px;
+    border: solid #011afc;
+    transition: 0.3s;
+    font-size: medium;
+    
+}
+.btn button:hover{
+    background-color: #007bff;
+    width: 110px;
+    font-size: large;
+    height: 40px;
+
+}
+.btn button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add more styles as needed */
