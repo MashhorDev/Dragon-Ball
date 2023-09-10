@@ -17,7 +17,6 @@ img {
     width: 350px;
 }
 .back {
-    position: fixed;
     background-color: #007bff;
     background-size: cover;
     background-position: center;
