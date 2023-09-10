@@ -9,8 +9,16 @@
     
     
 }
+img {
+    margin: 0% auto;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 350px;
+}
 .back {
-    background: url(dragonball.jpeg) no-repeat;
+    position: fixed;
+    background-color: #007bff;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -39,15 +47,14 @@
 }
 .box input{
     padding-left: 10px;
-    border: solid #007bff;
+    border: solid #004b9b;
     margin: 0% auto;
     display: block;
     justify-content: center;
     width: 200px;
-    box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 100px #000000;
 }
 .box {
-    background-color: #007bff;
     box-shadow: 0 0 1000px #007bff;
     border-radius: 50px;
     height: 100%;
@@ -56,7 +63,6 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border: solid 10px #007bff;
 }
 .box .btn {
     
@@ -90,4 +96,38 @@ button{
     border-radius: 5px;
 }
 
-/* Add more styles as needed */
+.footer {
+    padding-top: 220px;
+    width: 100%;
+    align-items: center;
+    margin: 0% auto;
+    display:grid;
+    justify-content: center;
+}
+.footer p {
+    width: 100%;
+    display:grid;
+    justify-content: center;
+}
+@media (max-width: 340px) {
+    img {
+        height: 150px;
+        width: 300px;
+    
+    }
+}
+@media (max-width: 300px) {
+    img {
+        height: 150px;
+        width: 280px;
+    
+    }
+}
+@media (max-width: 276px) {
+    img {
+        height: 130px;
+        width: 240px;
+    
+    }
+}
+/* By MashhorDev */
